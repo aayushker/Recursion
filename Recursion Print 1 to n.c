@@ -6,7 +6,7 @@
 void pr(int n) {
     if (n <= 0) {
         return;
-    }
+    }                                                                                                           
     pr(n - 1);
     printf("%d ", n);
 }
